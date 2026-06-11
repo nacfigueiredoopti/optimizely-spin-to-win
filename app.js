@@ -28,8 +28,8 @@ const WEIGHTS = [
   { type: "perfume", p: 0.05 },
   { type: "yeti",    p: 0.20 },
   { type: "fan",     p: 0.25 },
-  { type: "tote",    p: 0.10 },
-  { type: "fact",    p: 0.40 },
+  { type: "tote",    p: 0.25 },
+  { type: "fact",    p: 0.25 },
 ];
 
 const PRIZES = {
