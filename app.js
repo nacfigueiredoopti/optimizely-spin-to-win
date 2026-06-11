@@ -13,7 +13,7 @@ const SEGMENTS = [
   { type: "fan",     label: "Opti Fan",    emoji: "🪭", color: "#f06250", text: "#ffffff" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#3be081", text: "#10141d" },
   { type: "yeti",    label: "YETI Bottle", emoji: "🥤", color: "#ff8110", text: "#10141d" },
-  { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#0037ff", text: "#ffffff" },
+  { type: "tote",    label: "Tote Bag",    emoji: "👜", color: "#0037ff", text: "#ffffff" },
   { type: "fan",     label: "Opti Fan",    emoji: "🪭", color: "#861dff", text: "#ffffff" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#00ccff", text: "#10141d" },
   { type: "yeti",    label: "YETI Bottle", emoji: "🥤", color: "#f06250", text: "#ffffff" },
@@ -28,7 +28,8 @@ const WEIGHTS = [
   { type: "perfume", p: 0.05 },
   { type: "yeti",    p: 0.20 },
   { type: "fan",     p: 0.25 },
-  { type: "fact",    p: 0.50 },
+  { type: "tote",    p: 0.10 },
+  { type: "fact",    p: 0.40 },
 ];
 
 const PRIZES = {
@@ -51,6 +52,13 @@ const PRIZES = {
     emoji: "🪭",
     title: "Optimizely Fan",
     body: "You won an Optimizely fan — keep cool and keep testing. A small win that's a big flex.",
+    confetti: "big",
+  },
+  tote: {
+    kicker: "Winner!",
+    emoji: "👜",
+    title: "Optimizely Tote Bag",
+    body: "You bagged it! A sturdy Optimizely tote is heading your way — perfect for hauling your experiments (and your groceries).",
     confetti: "big",
   },
 };

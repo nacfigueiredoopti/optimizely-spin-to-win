@@ -12,7 +12,8 @@ Branding (logo, font, colors, dark "vulcan" theme) is taken directly from [optim
 | 🌸 AI Personalized Perfume (top prize) | 5% |
 | 🥤 YETI Water Bottle | 20% |
 | 🪭 Optimizely Fan | 25% |
-| 💡 Optimizely Fact (no win) | 50% |
+| 👜 Optimizely Tote Bag | 10% |
+| 💡 Optimizely Fact (no win) | 40% |
 
 The outcome is chosen by the weighted model first, then the wheel animates to a matching slice — so the visuals always agree with the real probability, even though no percentages are displayed.
 
