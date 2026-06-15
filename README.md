@@ -10,7 +10,7 @@ Branding (logo, font, colors, dark "vulcan" theme) is taken directly from [optim
 | Prize | Internal odds |
 |---|---|
 | 🌸 AI Personalized Perfume (top prize) | 5% |
-| 🥤 YETI Water Bottle | 20% |
+| 🤝 A Warm Handshake | 20% |
 | 🪭 Optimizely Fan | 25% |
 | 👜 Optimizely Tote Bag | 25% |
 | 💡 Optimizely Fact (no win) | 25% |

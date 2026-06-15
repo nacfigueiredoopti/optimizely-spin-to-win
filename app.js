@@ -9,14 +9,14 @@
 const SEGMENTS = [
   { type: "perfume", label: "AI Perfume",  emoji: "🌸", color: "#ffce00", text: "#10141d" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#861dff", text: "#ffffff" },
-  { type: "yeti",    label: "YETI Bottle", emoji: "🥤", color: "#00ccff", text: "#10141d" },
+  { type: "handshake", label: "Handshake", emoji: "🤝", color: "#00ccff", text: "#10141d" },
   { type: "fan",     label: "Opti Fan",    emoji: "🪭", color: "#f06250", text: "#ffffff" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#3be081", text: "#10141d" },
-  { type: "yeti",    label: "YETI Bottle", emoji: "🥤", color: "#ff8110", text: "#10141d" },
+  { type: "handshake", label: "Handshake", emoji: "🤝", color: "#ff8110", text: "#10141d" },
   { type: "tote",    label: "Tote Bag",    emoji: "👜", color: "#0037ff", text: "#ffffff" },
   { type: "fan",     label: "Opti Fan",    emoji: "🪭", color: "#861dff", text: "#ffffff" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#00ccff", text: "#10141d" },
-  { type: "yeti",    label: "YETI Bottle", emoji: "🥤", color: "#f06250", text: "#ffffff" },
+  { type: "handshake", label: "Handshake", emoji: "🤝", color: "#f06250", text: "#ffffff" },
   { type: "fan",     label: "Opti Fan",    emoji: "🪭", color: "#3be081", text: "#10141d" },
   { type: "fact",    label: "Opti Fact",   emoji: "💡", color: "#0037ff", text: "#ffffff" },
 ];
@@ -26,7 +26,7 @@ const SEGMENTS = [
    Remaining 50% split between small swag wins and facts. */
 const WEIGHTS = [
   { type: "perfume", p: 0.05 },
-  { type: "yeti",    p: 0.20 },
+  { type: "handshake", p: 0.20 },
   { type: "fan",     p: 0.25 },
   { type: "tote",    p: 0.25 },
   { type: "fact",    p: 0.25 },
@@ -40,11 +40,11 @@ const PRIZES = {
     body: "Incredible — the rarest result on the wheel! You've won a bespoke fragrance, composed by AI to match your unique profile. Our team will reach out to craft your scent.",
     confetti: "mega",
   },
-  yeti: {
+  handshake: {
     kicker: "Winner!",
-    emoji: "🥤",
-    title: "YETI Water Bottle",
-    body: "Nice spin! A rugged, ice-cold YETI bottle is heading your way. Stay hydrated while you optimize.",
+    emoji: "🤝",
+    title: "A Warm Handshake",
+    body: "Congratulations — you've won a warm, heartfelt handshake! No shipping required. Firm grip, genuine eye contact, and our sincere thanks for playing.",
     confetti: "big",
   },
   fan: {
